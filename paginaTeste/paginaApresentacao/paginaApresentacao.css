@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+img{
+width: 400px;
+height: 400px;
+}
+.button{
+background-color:rgb(214, 200, 0);
+border: 2px solid  #91a7a7 ,#498ff8 ;
+transition-duration: 0.4s;
+  padding: 16px 32px;
+  border-radius: 20px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+  p{
+    text-align:center;
+    color: white;
+    
+  }
