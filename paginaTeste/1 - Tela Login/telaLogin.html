@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./telaLogin.css">
     <title>QUAC | Tela de login</title>
 </head>
 
 <body>
+    <img src="../static/img/logo.img.png" (1).img alt="logo">
     <form action="action_page.php" method="post">
 
-        <div class="container">
+        <div class="container1">
             <label for="username"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="username" required>
+            <input  class="imput1"type="text" placeholder="Enter Username" name="username" required>
             <label for="password"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="password" required>
-            <button type="submit">Login</button>
+            <input class="imput2" type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit" class="logibtn">Login</button>
         </div>
 
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <button type="button" class="registerbtn">Cadastrar</button>
+        <div class="container2" style="background-color: black; ">
+            <button class="cancelbtn" type="button" class="cancelbtn">Cancel</button>
+            <button class="addbtn" type="button" class="registerbtn">Cadastrar</button>
             <span class="psw">Esqueceu a <a href="#">senha?</a></span>
         </div>
     </form>
