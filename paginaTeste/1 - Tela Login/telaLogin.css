@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+img{
+    width:  50%;
+}
+.imput1{
+    border: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 10px;
+    border-radius: 10px;
+}
+
+.imput2{
+    border: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 10px;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.logibtn {
+    background-color:black; 
+    color:rgb(206, 206, 55) ; 
+    border: 2px solid rgb(206, 206, 55);
+  }
+
+  .cancelbtn {
+    background-color:black; 
+    color:rgb(206, 206, 55) ; 
+    border: 2px solid rgb(206, 206, 55);
+  }
+
+  .registerbtn{
+    background-color:black; 
+    color:rgb(206, 206, 55) ; 
+    border: 2px solid rgb(206, 206, 55);
+  }
+
+  a:link {
+    color: rgb(206, 206, 55);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(206, 206, 55);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(206, 206, 55);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .cancelbtn {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 10px;
+  }
+  
+  .addbtn{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 10px;
+    background-color: black; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color:black; 
+    color:rgb(206, 206, 55) ; 
+    border: 2px solid rgb(206, 206, 55);
+  }
+   .psw{
+       color:yellow;
+       text-align: center;
+       padding: 100px 10px 10px 100px;
+    margin: 10px 50px 50px 10px;
+   }
+
+
+   .container1 {
+       padding-bottom:  10px;
+
+   }
