@@ -1,30 +1,31 @@
 body {
-    text-align: center;
-    background-color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  background-color :#253C59;   
 }
 img{
 width: 600px;
 height: 600px;
 }
 .button{
-  background-color: black; 
-    border-radius: 5px;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color:black; 
-    color:rgb(206, 206, 55) ; 
-    border: 2px solid rgb(206, 206, 55);
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #2D4B73; 
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: #F2AB27; 
+  border: 2px solid #F2AB27 ;
 }
 
   p{
     text-align:center;
     color: white;
-    
+    font-family: "Lucida Console", "Courier New", monospace;
   }

@@ -1,7 +1,9 @@
 body{
-    text-align: center;
-    background-color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  background-color :#253C59;   
 }
+
 img{
     width:  50%;
 }
@@ -20,8 +22,31 @@ img{
 }
 
 .button {
-    background-color: #4CAF50; 
-    border: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #2D4B73; 
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: #F2AB27; 
+  border: 2px solid #F2AB27 ;
+  }
+  
+  .cancelbtn {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 10px;
+  }
+  
+  .addbtn{
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #2D4B73; 
+    border-radius: 5px;
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -31,69 +56,11 @@ img{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
-  
-.logibtn {
-    background-color:black; 
-    color:rgb(206, 206, 55) ; 
-    border: 2px solid rgb(206, 206, 55);
-  }
-
-  .cancelbtn {
-    background-color:black; 
-    color:rgb(206, 206, 55) ; 
-    border: 2px solid rgb(206, 206, 55);
-  }
-
-  .registerbtn{
-    background-color:black; 
-    color:rgb(206, 206, 55) ; 
-    border: 2px solid rgb(206, 206, 55);
-  }
-
-  a:link {
-    color: rgb(206, 206, 55);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: rgb(206, 206, 55);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: rgb(206, 206, 55);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-
-  .cancelbtn {
-    padding: 10px 10px 10px 10px;
-    margin: 10px 20px 10px 10px;
-  }
-  
-  .addbtn{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 20px 10px 10px;
-    background-color: black; 
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color:black; 
-    color:rgb(206, 206, 55) ; 
-    border: 2px solid rgb(206, 206, 55);
+    color: #F2AB27; 
+    border: 2px solid #F2AB27 ;
   }
    .psw{
-       color:yellow;
+       color: #F2AB27;
        text-align: center;
        padding: 100px 10px 10px 100px;
     margin: 10px 50px 50px 10px;
